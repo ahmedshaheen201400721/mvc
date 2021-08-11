@@ -1,0 +1,17 @@
+{
+    "name": "ahmed/mvc",
+    "authors": [
+        {
+            "name": "jeme shaheen",
+            "email": "ahmed.gamal2016@feps.edu.eg"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "App\\": "app/",
+            "Illuminate\\":"core/"
+        },
+        "files":["helpers.php"]
+    }
+}
